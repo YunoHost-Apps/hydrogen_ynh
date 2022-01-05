@@ -30,6 +30,14 @@
     "arguments": {
         "install" : [
             {
+                "name": "warning",
+                "type": "display_text",
+                "ask": {
+                    "en": "Hydrogen is still in beta phase.",
+                    "fr": "Hydrogen est encore en phase bêta."
+                }
+            },
+            {
                 "name": "domain",
                 "type": "domain"
             },
