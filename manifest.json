@@ -1,0 +1,49 @@
+{
+    "name": "Hydrogen",
+    "id": "hydrogen",
+    "packaging_format": 1,
+    "description": {
+        "en": "Web client focusing on personal messaging, performance, offline usage and wide browser support, including mobile!",
+        "fr": "Client Web messagerie personnelle axé sur les performances, l'utilisation hors ligne et la prise en charge d'un large navigateur, y compris mobile !"
+    },
+    "version": "0.2.22~ynh1",
+    "url": "https://matrix.org/docs/projects/client/hydrogen",
+    "upstream": {
+        "license": "Apache-2.0",
+        "website": "https://matrix.org/docs/projects/client/hydrogen",
+        "demo": "https://hydrogen.element.io/",
+        "admindoc": "https://yunohost.org/packaging_apps",
+        "code": "https://github.com/vector-im/hydrogen-web"
+    },
+    "license": "Apache-2.0",
+    "maintainer": {
+        "name": "John doe",
+        "email": "john.doe@example.com"
+    },
+    "requirements": {
+        "yunohost": ">= 4.3.0"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/hydrogen",
+                "default": "/hydrogen"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}
