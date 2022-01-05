@@ -3,8 +3,8 @@
     "id": "hydrogen",
     "packaging_format": 1,
     "description": {
-        "en": "Web client focusing on personal messaging, performance, offline usage and wide browser support, including mobile!",
-        "fr": "Client Web messagerie personnelle axé sur les performances, l'utilisation hors ligne et la prise en charge d'un large navigateur, y compris mobile !"
+        "en": "Web client for Matrix",
+        "fr": "Client web pour Matrix"
     },
     "version": "0.2.22~ynh1",
     "url": "https://matrix.org/docs/projects/client/hydrogen",
