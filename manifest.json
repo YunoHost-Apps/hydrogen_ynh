@@ -12,7 +12,6 @@
         "license": "Apache-2.0",
         "website": "https://matrix.org/docs/projects/client/hydrogen",
         "demo": "https://hydrogen.element.io/",
-        "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://github.com/vector-im/hydrogen-web"
     },
     "license": "Apache-2.0",
