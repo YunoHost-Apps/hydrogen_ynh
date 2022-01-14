@@ -21,7 +21,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 - Loading (unused) parts of the application after initial page load should be supported
 
 
-**Version incluse :** 0.2.22~ynh1
+**Version incluse :** 0.2.23~ynh1
 
 **Démo :** https://hydrogen.element.io/
 
@@ -32,7 +32,6 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 ## Documentations et ressources
 
 * Site officiel de l'app : https://matrix.org/docs/projects/client/hydrogen
-* Documentation officielle de l'admin : https://yunohost.org/packaging_apps
 * Dépôt de code officiel de l'app : https://github.com/vector-im/hydrogen-web
 * Documentation YunoHost pour cette app : https://yunohost.org/app_hydrogen
 * Signaler un bug : https://github.com/YunoHost-Apps/hydrogen_ynh/issues

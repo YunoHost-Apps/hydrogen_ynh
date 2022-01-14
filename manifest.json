@@ -6,19 +6,18 @@
         "en": "Web client for Matrix",
         "fr": "Client web pour Matrix"
     },
-    "version": "0.2.22~ynh1",
+    "version": "0.2.23~ynh1",
     "url": "https://matrix.org/docs/projects/client/hydrogen",
     "upstream": {
         "license": "Apache-2.0",
         "website": "https://matrix.org/docs/projects/client/hydrogen",
         "demo": "https://hydrogen.element.io/",
-        "admindoc": "https://yunohost.org/packaging_apps",
         "code": "https://github.com/vector-im/hydrogen-web"
     },
     "license": "Apache-2.0",
     "maintainer": {
-        "name": "John doe",
-        "email": "john.doe@example.com"
+        "name": "",
+        "email": ""
     },
     "requirements": {
         "yunohost": ">= 4.3.0"
