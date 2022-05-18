@@ -27,6 +27,7 @@ ynh_abort_if_errors
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
 is_public=$YNH_APP_ARG_IS_PUBLIC
+default_server=$YNH_APP_ARG_DEFAULT_SERVER
 
 app=$YNH_APP_INSTANCE_NAME
 
@@ -48,6 +49,7 @@ ynh_script_progression --message="Storing installation settings..." --weight=1
 
 ynh_app_setting_set --app=$app --key=domain --value=$domain
 ynh_app_setting_set --app=$app --key=path --value=$path_url
+ynh_app_setting_set --app=$app --key=default_server --value=$default_server
 
 #=================================================
 # STANDARD MODIFICATIONS
@@ -88,6 +90,16 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=2
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
+
+#=================================================
+# ADD A CONFIGURATION
+#=================================================
+ynh_script_progression --message="Adding a configuration file..." --weight=1
+
+ynh_add_config --template="../conf/config.sample.json" --destination="$final_path/config.json"
+
+chmod 400 "$final_path/config.json"
+chown $app:$app "$final_path/config.json"
 
 #=================================================
 # GENERIC FINALIZATION

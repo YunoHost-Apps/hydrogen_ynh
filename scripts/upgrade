@@ -19,6 +19,7 @@ app=$YNH_APP_INSTANCE_NAME
 domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+default_server=$(ynh_app_setting_get --app=$app --key=default_server)
 
 #=================================================
 # CHECK VERSION
@@ -53,6 +54,12 @@ ynh_systemd_action --service_name=$app --action="stop" --log_path="/var/log/$app
 # ENSURE DOWNWARD COMPATIBILITY
 #=================================================
 ynh_script_progression --message="Ensuring downward compatibility..." --weight=1
+
+# If default_server doesn't exist, create it
+if [ -z "$default_server" ]; then
+	default_server="matrix.org"
+	ynh_app_setting_set --app=$app --key=default_server --value=$default_server
+fi
 
 # Cleaning legacy permissions
 if ynh_legacy_permissions_exists; then
