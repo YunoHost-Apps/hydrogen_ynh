@@ -1,0 +1,13 @@
+version = "1.0"
+
+[main]
+name = "Hydrogen configuration"
+
+    [main.config]
+    name = "Configuration Options"
+
+        [main.config.default_server]
+        ask = "Set default server"
+        type = "string"
+        help = "Choose a default Matrix server"
+        bind = "defaultHomeServer:__FINALPATH__/config.json"
