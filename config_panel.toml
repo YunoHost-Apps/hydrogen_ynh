@@ -9,5 +9,5 @@ name = "Hydrogen configuration"
         [main.config.default_server]
         ask = "Set default server"
         type = "string"
-        help = "Choose a default server"
+        help = "Choose a default Matrix server"
         bind = "defaultHomeServer:__FINALPATH__/config.json"
