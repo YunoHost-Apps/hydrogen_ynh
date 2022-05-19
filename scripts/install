@@ -98,8 +98,8 @@ ynh_script_progression --message="Adding a configuration file..." --weight=1
 
 ynh_add_config --template="../conf/config.sample.json" --destination="$final_path/config.json"
 
-chmod 650 "$final_path/config.json"
-chown $app:$app "$final_path/config.json"
+chmod 660 "$final_path/config.json"
+chown $app:www-data "$final_path/config.json"
 
 #=================================================
 # GENERIC FINALIZATION
