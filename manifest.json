@@ -6,7 +6,7 @@
         "en": "Web client for Matrix",
         "fr": "Client web pour Matrix"
     },
-    "version": "0.2.28~ynh1",
+    "version": "0.2.29~ynh1",
     "url": "https://matrix.org/docs/projects/client/hydrogen",
     "upstream": {
         "license": "Apache-2.0",
@@ -29,14 +29,6 @@
     "arguments": {
         "install" : [
             {
-                "name": "warning",
-                "type": "display_text",
-                "ask": {
-                    "en": "Hydrogen is still in beta phase.",
-                    "fr": "Hydrogen est encore en phase bêta."
-                }
-            },
-            {
                 "name": "domain",
                 "type": "domain"
             },
@@ -45,6 +37,16 @@
                 "type": "path",
                 "example": "/hydrogen",
                 "default": "/hydrogen"
+            },
+            {
+                "name": "default_server",
+                "type": "string",
+                "ask": {
+                    "en": "Choose a default server",
+                    "fr": "Choisissez un serveur par défault"
+                },
+                "example": "my-matrix-server.tld",
+                "default": "matrix.org"
             },
             {
                 "name": "is_public",
