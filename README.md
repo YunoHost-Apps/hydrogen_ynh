@@ -28,7 +28,6 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 **Shipped version:** 0.3.1~ynh1
 
 
-
 **Demo:** https://hydrogen.element.io/
 
 ## Screenshots
