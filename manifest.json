@@ -39,6 +39,11 @@
                 "default": "/hydrogen"
             },
             {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            },
+            {
                 "name": "default_server",
                 "type": "string",
                 "ask": {
