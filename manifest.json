@@ -6,7 +6,7 @@
         "en": "Web client for Matrix",
         "fr": "Client web pour Matrix"
     },
-    "version": "0.3.1~ynh1",
+    "version": "0.3.2~ynh1",
     "url": "https://matrix.org/docs/projects/client/hydrogen",
     "upstream": {
         "license": "Apache-2.0",

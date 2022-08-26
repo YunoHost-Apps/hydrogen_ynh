@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/vector-im/hydrogen-web/releases/download/v0.3.1/hydrogen-web-0.3.1.tar.gz
-SOURCE_SUM=b84b2fc982faf116c3cd021dfd520621f426122e728a71ab3835f29db7a2b325
+SOURCE_URL=https://github.com/vector-im/hydrogen-web/releases/download/v0.3.2/hydrogen-web-0.3.2.tar.gz
+SOURCE_SUM=b960f0aa9d16aced98d0e96b1aa4fd63a660578a148346ab41e7bb4e6cb8cbff
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
