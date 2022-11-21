@@ -7,7 +7,7 @@
   "defaultHomeServer": "https://__DEFAULT_SERVER__",
   "bugReportEndpointUrl": "https://element.io/bugreports/submit",
   "themeManifests": [
-    "assets/theme-Element.json"
+    "assets/theme-element.json"
   ],
   "defaultTheme": {
     "light": "element-light",
