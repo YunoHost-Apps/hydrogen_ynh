@@ -33,12 +33,6 @@
                 "type": "domain"
             },
             {
-                "name": "path",
-                "type": "path",
-                "example": "/hydrogen",
-                "default": "/hydrogen"
-            },
-            {
                 "name": "default_server",
                 "type": "string",
                 "ask": {
