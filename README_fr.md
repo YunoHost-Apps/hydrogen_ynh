@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Hydrogen pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/hydrogen.svg)](https://dash.yunohost.org/appci/app/hydrogen) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/hydrogen.svg)](https://dash.yunohost.org/appci/app/hydrogen) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
 [![Installer Hydrogen avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Hydrogen rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Hydrogen rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 A minimal Matrix chat client, focused on performance, offline functionality, and broad browser support. This is work in progress and not yet ready for primetime.
 
@@ -29,14 +29,14 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 
 **Démo :** https://hydrogen.element.io/
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Hydrogen](./doc/screenshots/hydrogen-large.png)
+![Capture d’écran de Hydrogen](./doc/screenshots/hydrogen-large.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://matrix.org/docs/projects/client/hydrogen>
-* Dépôt de code officiel de l'app : <https://github.com/vector-im/hydrogen-web>
+* Site officiel de l’app : <https://matrix.org/docs/projects/client/hydrogen>
+* Dépôt de code officiel de l’app : <https://github.com/vector-im/hydrogen-web>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_hydrogen>
 * Signaler un bug : <https://github.com/YunoHost-Apps/hydrogen_ynh/issues>
 
@@ -52,4 +52,4 @@ ou
 sudo yunohost app upgrade hydrogen -u https://github.com/YunoHost-Apps/hydrogen_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
