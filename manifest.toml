@@ -5,7 +5,7 @@ name = "Hydrogen"
 description.en = "Web client for Matrix"
 description.fr = "Client web pour Matrix"
 
-version = "0.3.7~ynh1"
+version = "0.3.7~ynh2"
 
 maintainers = ["eric_G"]
 
