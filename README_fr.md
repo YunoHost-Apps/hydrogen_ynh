@@ -16,17 +16,16 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-A minimal Matrix chat client, focused on performance, offline functionality, and broad browser support. This is work in progress and not yet ready for primetime.
+Un client de chat Matrix minimal, axé sur les performances, les fonctionnalités hors ligne et la prise en charge étendue du navigateur. C'est un travail en cours et pas encore prêt pour les heures de grande écoute.
 
-### Features
+### Caractéristiques
 
-- Work well on desktop as well as mobile browsers
-- UI components can be easily used in isolation
-- It is a standalone webapp, but can also be easily embedded into an existing website/webapp to add chat capabilities.
-- Loading (unused) parts of the application after initial page load should be supported
+- Fonctionne sur les ordinateurs de bureau ainsi que sur les navigateurs mobiles
+- Les composants de l'interface utilisateur peuvent être facilement utilisés isolément
+- Il s'agit d'une application Web autonome, mais elle peut également être facilement intégrée à un site Web/une application Web existante pour ajouter des fonctionnalités de chat.
+- Le chargement de parties (inutilisées) de l'application après le chargement initial de la page doit être pris en charge
 
-
-**Version incluse :** 0.3.7~ynh2
+**Version incluse :** 0.4.0~ynh1
 
 **Démo :** https://hydrogen.element.io/
 
