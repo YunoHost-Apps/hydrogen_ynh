@@ -35,7 +35,7 @@ Un client de chat Matrix minimal, axé sur les performances, les fonctionnalité
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://matrix.org/docs/projects/client/hydrogen>
+* Site officiel de l’app : <https://matrix.org/ecosystem/clients/hydrogen/>
 * Dépôt de code officiel de l’app : <https://github.com/vector-im/hydrogen-web>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_hydrogen>
 * Signaler un bug : <https://github.com/YunoHost-Apps/hydrogen_ynh/issues>
