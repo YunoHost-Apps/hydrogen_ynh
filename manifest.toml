@@ -11,7 +11,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "Apache-2.0"
-website = "https://matrix.org/docs/projects/client/hydrogen"
+website = "https://matrix.org/ecosystem/clients/hydrogen/"
 demo = "https://hydrogen.element.io/"
 code = "https://github.com/vector-im/hydrogen-web"
 
