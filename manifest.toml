@@ -45,8 +45,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/vector-im/hydrogen-web/archive/refs/tags/v0.4.1.tar.gz"
-        sha256 = "a62e7758ebb76b3ac2f1c513c360b0815f0a7568466b90e557268d20d3f37c57"
+        url = "https://github.com/vector-im/hydrogen-web/releases/download/v0.4.1/hydrogen-web-0.4.1.tar.gz"
+        sha256 = "b4ba42a13b5cec1e447408959f2f9dc00df431a68b3e457c569fd1d0bad8042d"
         autoupdate.strategy = "latest_github_tag"
 
     [resources.ports]
