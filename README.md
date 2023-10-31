@@ -38,6 +38,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 
 * Official app website: <https://matrix.org/ecosystem/clients/hydrogen/>
 * Upstream app code repository: <https://github.com/vector-im/hydrogen-web>
+* YunoHost Store: <https://apps.yunohost.org/app/hydrogen>
 * Report a bug: <https://github.com/YunoHost-Apps/hydrogen_ynh/issues>
 
 ## Developer info
