@@ -40,7 +40,7 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/config.sample.json" --destination="$install_dir/config.json"
+ynh_add_config --template="config.sample.json" --destination="$install_dir/config.json"
 
 chmod 660 "$install_dir/config.json"
 chown $app:www-data "$install_dir/config.json"
