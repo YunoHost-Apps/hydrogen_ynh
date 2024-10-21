@@ -26,7 +26,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 - Loading (unused) parts of the application after initial page load should be supported
 
 
-**Versión actual:** 0.5.0~ynh1
+**Versión actual:** 0.5.1~ynh1
 
 **Demo:** <https://hydrogen.element.io/>
 
@@ -43,7 +43,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/hydrogen_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/hydrogen_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 

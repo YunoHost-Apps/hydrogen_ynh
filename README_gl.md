@@ -26,7 +26,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 - Loading (unused) parts of the application after initial page load should be supported
 
 
-**Versión proporcionada:** 0.5.0~ynh1
+**Versión proporcionada:** 0.5.1~ynh1
 
 **Demo:** <https://hydrogen.element.io/>
 
