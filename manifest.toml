@@ -39,6 +39,8 @@ ram.runtime = "50M"
     default = "matrix.org"
 
     [install.init_main_permission]
+    help.en = "'visitors' permission means that anyone can access Hydrogen application."
+    help.fr = "Autoriser les 'Visiteurs' signifie que n'importe qui peut accéder Hydrogen."
     type = "group"
     default = "visitors"
 
