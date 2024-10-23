@@ -14,7 +14,6 @@ default_server=$YNH_APP_ARG_DEFAULT_SERVER
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-# Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
@@ -30,6 +29,9 @@ ynh_config_add_nginx
 ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="config.sample.json" --destination="$install_dir/config.json"
+
+chmod -R u=rwX,g=rX,o= "$install_dir"
+chown -R "$app":www-data "$install_dir"
 
 #=================================================
 # END OF SCRIPT
