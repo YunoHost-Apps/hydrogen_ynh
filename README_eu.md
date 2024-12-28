@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Hydrogen YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/hydrogen.svg)](https://ci-apps.yunohost.org/ci/apps/hydrogen/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/hydrogen)](https://ci-apps.yunohost.org/ci/apps/hydrogen/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/hydrogen)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/hydrogen)
 
 [![Instalatu Hydrogen YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 

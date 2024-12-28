@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Hydrogen
 
-[![集成程度](https://dash.yunohost.org/integration/hydrogen.svg)](https://ci-apps.yunohost.org/ci/apps/hydrogen/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/hydrogen)](https://ci-apps.yunohost.org/ci/apps/hydrogen/)
+![工作状态](https://apps.yunohost.org/badge/state/hydrogen)
+![维护状态](https://apps.yunohost.org/badge/maintained/hydrogen)
 
 [![使用 YunoHost 安装 Hydrogen](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 

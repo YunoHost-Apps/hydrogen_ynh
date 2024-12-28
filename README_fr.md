@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Hydrogen pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/hydrogen.svg)](https://ci-apps.yunohost.org/ci/apps/hydrogen/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/hydrogen)](https://ci-apps.yunohost.org/ci/apps/hydrogen/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/hydrogen)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/hydrogen)
 
 [![Installer Hydrogen avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 

@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Hydrogen untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/hydrogen.svg)](https://ci-apps.yunohost.org/ci/apps/hydrogen/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/hydrogen)](https://ci-apps.yunohost.org/ci/apps/hydrogen/)
+![Status kerja](https://apps.yunohost.org/badge/state/hydrogen)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/hydrogen)
 
 [![Pasang Hydrogen dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 
