@@ -5,7 +5,9 @@ No se debe editar a mano.
 
 # Hydrogen para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/hydrogen.svg)](https://ci-apps.yunohost.org/ci/apps/hydrogen/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/hydrogen)](https://ci-apps.yunohost.org/ci/apps/hydrogen/)
+![Estado funcional](https://apps.yunohost.org/badge/state/hydrogen)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/hydrogen)
 
 [![Instalar Hydrogen con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 
@@ -26,7 +28,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 - Loading (unused) parts of the application after initial page load should be supported
 
 
-**Versión actual:** 0.5.0~ynh1
+**Versión actual:** 0.5.1~ynh1
 
 **Demo:** <https://hydrogen.element.io/>
 
@@ -43,7 +45,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/hydrogen_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/hydrogen_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
