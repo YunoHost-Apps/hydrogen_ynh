@@ -5,7 +5,9 @@
 
 # Hydrogen для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/hydrogen.svg)](https://ci-apps.yunohost.org/ci/apps/hydrogen/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/hydrogen.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/hydrogen.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/hydrogen)](https://ci-apps.yunohost.org/ci/apps/hydrogen/)
+![Состояние работы](https://apps.yunohost.org/badge/state/hydrogen)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/hydrogen)
 
 [![Установите Hydrogen с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=hydrogen)
 
@@ -26,7 +28,7 @@ A minimal Matrix chat client, focused on performance, offline functionality, and
 - Loading (unused) parts of the application after initial page load should be supported
 
 
-**Поставляемая версия:** 0.5.0~ynh1
+**Поставляемая версия:** 0.5.1~ynh1
 
 **Демо-версия:** <https://hydrogen.element.io/>
 

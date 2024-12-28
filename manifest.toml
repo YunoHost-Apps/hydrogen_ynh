@@ -5,7 +5,7 @@ name = "Hydrogen"
 description.en = "Web client for Matrix"
 description.fr = "Client web pour Matrix"
 
-version = "0.5.0~ynh1"
+version = "0.5.1~ynh1"
 
 maintainers = []
 
@@ -16,12 +16,11 @@ demo = "https://hydrogen.element.io/"
 code = "https://github.com/vector-im/hydrogen-web"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.27"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
-
 ldap = false
-
 sso = false
 
 disk = "50M"
@@ -48,15 +47,17 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/vector-im/hydrogen-web/releases/download/v0.5.0/hydrogen-web-0.5.0.tar.gz"
-        sha256 = "ab6cc8481666fbc9c123d48d42be5216799c13246805be74ec1b4e11693390b1"
-        autoupdate.strategy = "latest_github_tag"
+        url = "https://github.com/element-hq/hydrogen-web/releases/download/v0.5.1/hydrogen-web-0.5.1.tar.gz"
+        sha256 = "ee9bd7cf330a8d6cc95e00ce37b89f5437656ee1aff92821ded2c4d6611306a0"
+        autoupdate.strategy = "latest_github_release"
+        autoupdate.asset = "hydrogen-web-\\d+(\\.\\d+)+\\.tar\\.gz"
 
     [resources.ports]
     
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"
