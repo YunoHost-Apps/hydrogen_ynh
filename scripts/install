@@ -30,6 +30,9 @@ ynh_script_progression "Adding $app's configuration..."
 
 ynh_config_add --template="config.sample.json" --destination="$install_dir/config.json"
 
+chmod -R u=rwX,g=rX,o= "$install_dir"
+chown -R "$app":www-data "$install_dir"
+
 #=================================================
 # END OF SCRIPT
 #=================================================
